@@ -1,0 +1,57 @@
+.loginbox {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #242634, #2b2d3e);
+    box-shadow: 31px 31px 61px #222431,
+        -31px -31px 61px #2e3043;
+    width: 370px;
+    height: 300px;
+
+    margin: 15% auto;
+
+}
+
+.lg {
+    color: white;
+    position: absolute;
+    margin: 25px;
+    margin-left: 140px;
+}
+
+.userBox {
+    position: absolute;
+    margin: 50px 20px;
+}
+
+
+
+.text1 {
+    color: white;
+    padding: 20px;
+
+}
+
+
+
+.userInput {
+    position: absolute;
+    margin: 88px 150px;
+    width: min-content;
+
+}
+
+.textinput {
+    margin-bottom: 50px;
+
+}
+
+.submit {
+    position: absolute;
+    margin: 70px -150px;
+    border-radius: 36% 64% 60% 40% / 46% 47% 53% 54%;
+    height: 30px;
+    width: 50px;
+    color: #735F32;
+
+
+
+}

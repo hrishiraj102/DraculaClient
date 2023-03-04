@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  /* background-color: #000000; */
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.title{
+  color: white;
+  margin-top: 40px;
+  position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
