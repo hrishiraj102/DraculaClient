@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 
 function Header() {
     return (
-        <Grid sx={{ width: "100%", backgroundColor: "black", height: "350px" }}
+        <Grid sx={{ width: "100%", backgroundColor: "black", height: "330px" }}
 
             
 
@@ -14,7 +14,7 @@ function Header() {
             item xs={12} sm={6}>
 
             <Grid>
-                <Typography variant="h1" sx={{ color: "white", fontFamily: "sans-serif" ,pt:6}}>DRACULA</Typography>
+                <Typography variant="h2" sx={{ color: "white", fontFamily: "sans-serif" ,pt:6,fontSize:"auto",fontWeight:400}}>DRACULA</Typography>
             </Grid>
             <NavBar />
 

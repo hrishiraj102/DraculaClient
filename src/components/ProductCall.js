@@ -1,3 +1,4 @@
+import { Grid, Typography } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { json } from "react-router-dom";
@@ -13,8 +14,13 @@ function ProductCall() {
     },[]);
 
     return (
-        <div>
-            <h3>Product Call</h3>
+        <>
+            <Grid sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignContent: "center", width: "100%", marginTop: 10,backgroundColor:"black" }}
+                    container
+                    rowSpacing={1}
+                    columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+                    item xs={12} sm={6}>
+            <Typography variant="h5">Product Call</Typography>
             <table>
                 <thead>
                     <th>Product Name</th>
@@ -36,8 +42,8 @@ function ProductCall() {
 
                 </tbody>
             </table>
-            {/* {JSON.stringify(product)} */}
-        </div>
+            </Grid>
+        </>
     )
 }
 

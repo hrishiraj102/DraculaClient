@@ -5,13 +5,14 @@ import bootstrap from 'bootstrap'
 import './NavBar.css';
 import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import ProductCall from './ProductCall';
 
 function NavBar() {
     return (
         <div >
 
             <Router>
-                <Grid sx={{ display: "flex", flexDirection: "row", justifyContent: "center", alignContent: "center", width: "100%", marginTop: 10 }}
+                <Grid sx={{ display: "flex", flexDirection: "row", justifyContent: "center", alignContent: "center", width: "100%", marginTop:8 }}
                     container
                     rowSpacing={1}
                     columnSpacing={{ xs: 1, sm: 2, md: 3 }}
@@ -24,10 +25,11 @@ function NavBar() {
                         <Link className="Link" to="/about">About Us</Link></Box>
                     <Box marginBottom={1}>
                         <Link className="Link" to="/login">Login</Link></Box>
-                        
+                      
                 </Grid>
+                <hr style={{color:"whitesmoke"}}/>
                 <Routes>
-                    <Route exact path="/" element={<homePage />} />
+                    <Route exact path="/" element={<ProductCall /> } />
                     <Route exact path="/login" element={<Login />} />
                     <Route exact path="/about" element={<AboutPage />} />
 

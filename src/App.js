@@ -5,13 +5,15 @@ import { BrowserRouter as Router, Route, Routes, Link, useParams } from 'react-r
 import NavBar from './components/NavBar';
 import ProductCall from './components/ProductCall';
 import Header from './components/Header';
+import HomePage from './pages/HomePage';
+import { Grid } from '@mui/material';
 
 function App() {
   
   return (
-    <div className='App'>
-      <Header/>
-    {/* <ProductCall /> */}
+    <div className='App' >
+      
+    <HomePage/>
 
       
         
