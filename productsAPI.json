@@ -4,10 +4,10 @@
             "pcode": 101,
             "pname": "Black Shirt",
             "size": [
-                "S",
-                "L",
-                "XL",
-                "XXL"
+                "S ",
+                "L ",
+                "XL ",
+                "XXL "
             ],
             "price": 699,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/lugosi_dractee01_1364x1364.jpg?v=1603746087"
@@ -16,10 +16,10 @@
             "pcode": 102,
             "pname": "Black Tee",
             "size": [
-                "S",
-                "L",
-                "XL",
-                "XXL"
+                "S" ,
+                "L ",
+                "XL ",
+                "XXL "
             ],
             "price": 499,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/BelaDripTee03_1364x1364.jpg?v=1603831991"
@@ -28,10 +28,10 @@
             "pcode": 103,
             "pname": "Customize Shirt",
             "size": [
-                "S",
-                "L",
-                "XL",
-                "XXL"
+                "S ",
+                "L ",
+                "XL ",
+                "XXL "
             ],
             "price": 899,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/lugosi_dractee01_1364x1364.jpg?v=1603746087"
@@ -40,9 +40,9 @@
             "pcode": 104,
             "pname": "Customize Tee",
             "size": [
-                "S",
-                "L",
-                "XL"
+                "S ",
+                "L ",
+                "XL "
             ],
             "price": 699,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/BelaDripTee03_1364x1364.jpg?v=1603831991"
@@ -51,10 +51,10 @@
             "pcode": 105,
             "pname": "Denim Jacket",
             "size": [
-                "S",
-                "L",
-                "XL",
-                "XXL"
+                "S ",
+                "L ",
+                "XL ",
+                "XXL "
             ],
             "price": 699,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/lugosi_dractee01_1364x1364.jpg?v=1603746087"
@@ -63,10 +63,10 @@
             "pcode": 106,
             "pname": "Shoe",
             "size": [
-                "S",
-                "L",
-                "XL",
-                "XXL"
+                "S ",
+                "L ",
+                "XL ",
+                "XXL "
             ],
             "price": 900,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/BelaDripTee03_1364x1364.jpg?v=1603831991"
@@ -75,10 +75,10 @@
             "pcode": 107,
             "pname": "Hoodie",
             "size": [
-                "S",
-                "L",
-                "XL",
-                "XXL"
+                "S ",
+                "L ",
+                "XL ",
+                "XXL "
             ],
             "price": 899,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/lugosi_dractee01_1364x1364.jpg?v=1603746087"
@@ -87,9 +87,9 @@
             "pcode": 108,
             "pname": "track pant",
             "size": [
-                "S",
-                "L",
-                "XL"
+                "S ",
+                "L ",
+                "XL "
             ],
             "price": 1000,
             "imageUrl": "https://cdn.shopify.com/s/files/1/0918/8376/products/BelaDripTee03_1364x1364.jpg?v=1603831991"
