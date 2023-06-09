@@ -1,10 +1,12 @@
-import { Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import axios from "axios";
 import { Button } from "bootstrap";
 import { useEffect, useState } from "react";
 import { json } from "react-router-dom";
 import "./ProductList.css"
+import SlideShow from "./SlideShow";
+
 
 function ProductCall() {
     var [product, setProduct] = useState([]);
@@ -18,12 +20,15 @@ function ProductCall() {
 
     return (
         <>
-
+            <div>
+                <SlideShow />
+            </div>
             <Grid sx={{ display: "grid", flexDirection: "column", justifyContent: "center", width: "100%", marginTop: 4, backgroundColor: "black" }}
                 container
                 rowSpacing={1}
                 columnSpacing={{ xs: 1, sm: 2, md: 3 }}
                 item xs={12} sm={6}>
+
 
                 <Typography variant="h4" sx={{ color: "white", mb: 5 }}>Our Products</Typography>
                 <Grid container sx={{ display: "flex", flexDirection: "row", justifyContent: "center", pl: 5, flexWrap: "wrap", width: "100%" }} rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -46,10 +51,11 @@ function ProductCall() {
 
 
             </Grid>
+
             <div>
-        <h1 color={"white"}>Footer</h1>
-        </div>
-            
+                <h1 color={"white"}>Footer</h1>
+            </div>
+
         </>
     )
 }

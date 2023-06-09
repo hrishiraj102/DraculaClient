@@ -8,6 +8,7 @@ import { Box } from '@mui/system';
 import ProductCall from './ProductCall';
 import ContactPage from '../pages/ContactPage';
 
+
 function NavBar() {
     return (
         <div >
@@ -40,6 +41,7 @@ function NavBar() {
                
 
             </Router>
+            
             
         </div>
     )
