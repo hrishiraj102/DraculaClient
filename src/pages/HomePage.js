@@ -6,8 +6,8 @@ function HomePage() {
         <>
             <Header />
             
-
         </>
+        
     )
 }
 export default HomePage;

@@ -6,6 +6,7 @@ import './NavBar.css';
 import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import ProductCall from './ProductCall';
+import ContactPage from '../pages/ContactPage';
 
 function NavBar() {
     return (
@@ -25,6 +26,8 @@ function NavBar() {
                         <Link className="Link" to="/about">About Us</Link></Box>
                     <Box marginBottom={1}>
                         <Link className="Link" to="/login">Login</Link></Box>
+                        <Box marginBottom={1}>
+                        <Link className="Link" to="/contact">Contact Us</Link></Box>
                       
                 </Grid>
                 <hr style={{color:"whitesmoke"}}/>
@@ -32,7 +35,7 @@ function NavBar() {
                     <Route exact path="/" element={<ProductCall /> } />
                     <Route exact path="/login" element={<Login />} />
                     <Route exact path="/about" element={<AboutPage />} />
-
+                    <Route exact path="/contact" element={<ContactPage />}/>
                 </Routes>
                
 

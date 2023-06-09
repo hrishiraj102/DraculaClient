@@ -1,6 +1,6 @@
-import { Height } from "@mui/icons-material";
+
 import { Grid, Typography } from "@mui/material";
-import { Container } from "@mui/system";
+
 import NavBar from "./NavBar";
 
 function Header() {
