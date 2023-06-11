@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import SlideShow from "../components/SlideShow";
 
 function AboutPage() {
@@ -6,15 +7,17 @@ function AboutPage() {
     return (
         <div>
             <div>
-                <SlideShow/>
-                </div>
+                <SlideShow />
+            </div>
             <h3 className="text1">About the age</h3>
             <h6 className="text1">Loseum Loseum loseum losem loammm. Loseum Loseum loseum losem loammm
-            Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm
-            Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm</h6>
+                Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm
+                Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm.Loseum Loseum loseum losem loammm</h6>
+
+            <Footer />
         </div>
 
-    
+
     )
 
 }

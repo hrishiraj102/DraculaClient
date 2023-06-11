@@ -1,21 +1,19 @@
-import { Container, Grid, Typography } from "@mui/material";
+import {Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import axios from "axios";
-import { Button } from "bootstrap";
+
 import { useEffect, useState } from "react";
-import { json } from "react-router-dom";
+
 import "./ProductList.css"
 import SlideShow from "./SlideShow";
-
+import productsData from "./productsAPI.json"
+import Footer from "./Footer";
 
 function ProductCall() {
     var [product, setProduct] = useState([]);
-    var url = "http://localhost:8080/products";
+    //var url = "http://localhost:8080/products";
 
     useEffect(() => {
-        axios.get(url)
-            .then(res => setProduct(res.data))
-            .then(error => console.error("Error" + error));
+        setProduct(productsData.products)
     }, []);
 
     return (
@@ -35,7 +33,7 @@ function ProductCall() {
                     {product.map((item) =>
                         <Grid sx={{ display: "flex", flexDirection: "column", width: "350px", height: "500px" }} >
                             <Grid >
-                                <img style={{ width: "280px", height: "330px", borderRadius: 5 }} src={item.imageUrl} />
+                                <img style={{ width: "280px", height: "330px", borderRadius: 5 }} src={item.imageUrl} alt="productimage"/>
                             </Grid>
                             <Typography variant="h6" sx={{ color: "white" }}>{item.pname}</Typography>
                             <Typography variant="body" sx={{ color: "white" }}>Price- ₹{item.price}</Typography>
@@ -52,9 +50,7 @@ function ProductCall() {
 
             </Grid>
 
-            <div>
-                <h1 color={"white"}>Footer</h1>
-            </div>
+            <Footer/>
 
         </>
     )

@@ -1,4 +1,5 @@
-import { Container, Grid, Typography } from "@mui/material";
+import {  Grid, Typography } from "@mui/material";
+import Footer from "../components/Footer";
 
 function ContactPage(){
 
@@ -21,6 +22,9 @@ function ContactPage(){
                
             </Grid>
         </Grid>
+        <div style={{marginTop:"250px"}}>
+        <Footer />
+        </div>
         </>
         
     )
